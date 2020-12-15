@@ -37,7 +37,7 @@ function game(UserChoice){
 }
 function win(bn){
 	UserPoints++;
-	  var audio=new Audio("sounds/wonsound.mp3");
+	  var audio=new Audio("wonsound.mp3");
    audio.play();
     document.getElementById("who").innerHTML = "You win!";
     var bn = document.getElementById(bn);
@@ -60,7 +60,7 @@ function draw(bn){
 }
 function lose(bn){
 	ComPoints++;
-	var audio1=new Audio("sounds/sadsound.mp3");
+	var audio1=new Audio("sadsound.mp3");
         audio1.play();
 	document.getElementById("who").innerHTML = "You lose...";
 	var bn = document.getElementById(bn);
