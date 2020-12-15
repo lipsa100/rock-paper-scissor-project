@@ -49,6 +49,8 @@ function win(bn){
     }, 1200);
 }
 function draw(bn){
+		  var audio2=new Audio("draw.mp3");
+   audio2.play();
 	document.getElementById("who").innerHTML = "It's a Draw.";
 	var bn = document.getElementById(bn);
     bn.classList.remove("bn");
